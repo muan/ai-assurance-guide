@@ -1,3 +1,15 @@
 # Sidebar navigation
 - label: Home
   link: /
+- label: Background
+  items:
+    - label: Artificial Intelligence, benefits and risks 
+      link: /benefits-and-risks
+    - label: The need for trust in AI systems
+      link: /trust
+    - label: What is AI assurance and why do we need it? 
+      link: /what-is-assurance
+    - label: What is the role of AI assurance in AI governance?
+      link: /governance
+    - label: Needs and Responsibilities for AI Assurance?
+      link: /needs-and-responsibilities
