@@ -1,11 +1,3 @@
 # Sidebar navigation
 - label: Home
   link: /
-- label: Background
-  link: /background
-- label: AI assurance engagements
-  link: /ai-assurance-engagements
-- label: The AI assurance toolkit
-  link: /ai-assurance-toolkit
-- label: Delivery AI assurance
-  link: /delivering-ai-assurance
