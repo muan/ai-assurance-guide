@@ -19,7 +19,7 @@ module.exports = {
       options: {
         debug: false,
         googleAnalytics: {
-          trackingId: `UA-173229929-2`,
+          trackingId: `UA-173229929-3`,
           autoStart: false,
           controlCookieName: `cdeiuk-analytics-enabled`,
           anonymize: true,
