@@ -41,3 +41,9 @@
       link: /promise-and-limits
     - label: Assurance case studies and examples
       link: /case-studies
+- label: Privacy
+  items:
+    - label: Cookie Policy
+      link: /cookie-policy
+    - label: Privacy Notice
+      link: /privacy-notice

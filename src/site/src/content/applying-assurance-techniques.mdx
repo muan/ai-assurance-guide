@@ -1,0 +1,42 @@
+---
+title: Applying assurance techniques to AI
+---
+
+import CookieBanner from "../components/cookies"
+import Collapse from "../components/collapse"
+
+<CookieBanner />
+
+For AI, a number of different aspects of an AI system and the broader context in which it is deployed need to be assured. While there are many lists of objectives/risks for AI, there is an emerging consensus about the types of risk/harm/performance that need to be understood.
+
+Potential subject matter for assuring AI systems:
+
+- Intended use - is the intended use of the system beneficial and appropriate for the type of system?
+- Accuracy - Is the system accurate and effective in achieving its intended goals?
+- Robustness - Is the system’s performance consistent across a variety of inputs or in different conditions?
+- Unfair bias - Does the system perpetuate unfair bias?
+- Explainability / interpretability - can the reasons behind a system’s decisions or predictions be explained to those affected?
+- Security - Is the system vulnerable to cyber attack or malicious use?
+- Societal impact - Could the operation of the system result in negative consequences for people and society?
+- Privacy - Does the system ensure individuals privacy rights are respected and protected?
+- Human rights - Does the system pose a risk to individuals’ human rights?
+- Management processes and controls - Are the appropriate processes and controls in place to manage risks in the development or deployment of the system?
+
+The levels at which these subject matter could be assessed:
+
+- Input data
+- Test performance
+- Real world outcomes
+- Process
+- Organisations
+- Developers
+
+Considering the wide range of potential subject matter for AI Assurance, there is an important challenge to ensure that suitable assurance techniques are adopted, reflecting the characteristics of each subject matter. Deciding on this will involve active participation from across the ecosystem. Government, regulators and standards bodies will need to work closely with industry, academia and civil society to set suitable assurable requirements for AI systems.
+
+For example, the potential societal impacts of an AI system before deployment need to be measured differently to how we would measure the accuracy of an AI system in performing a specific task. In the latter case the accuracy of an AI system can be established with a relatively high level of certainty using a quantitative metric. This is notwithstanding the potential for model drift, which will require ongoing, live testing to ensure the system remains accurate across its lifecycle. In contrast, when thinking about potential societal impacts of an AI system, assessors need to establish potential impacts resulting from a system which would not occur in a counterfactual world in which the technology was not being developed.
+
+This process involves qualitative analysis such as public engagement, futures thinking and consideration of public values. Impact assessments provide assurance to the extent that proper procedures have been followed to identify, mitigate and assign responsibility for impacts - not that all possible impacts have in fact been mitigated (this is an unachievable level of certainty). In contrast, the accuracy of a model against a predetermined standard can be assured to a far greater degree of certainty. While the potential for model drift might decrease this certainty when the system is deployed and used, this can be mitigated via ongoing accuracy testing.
+
+We think that because of these strengths and weaknesses, the assurance techniques listed in section 2.1 provide a useful toolbox of complementary techniques that should be considered when trying to establish trust in AI. However it is important that assurance techniques are coherently and deliberately chosen to suit the nature of the subject matter.
+
+TODO: add table
