@@ -3,13 +3,41 @@
   link: /
 - label: Background
   items:
-    - label: Artificial Intelligence, benefits and risks 
+    - label: Artificial Intelligence, benefits and risks
       link: /benefits-and-risks
     - label: The need for trust in AI systems
       link: /trust
-    - label: What is AI assurance and why do we need it? 
+    - label: What is AI assurance and why do we need it?
       link: /what-is-assurance
     - label: What is the role of AI assurance in AI governance?
       link: /governance
     - label: Needs and Responsibilities for AI Assurance?
       link: /needs-and-responsibilities
+- label: AI assurance engagements
+  items:
+    - label: The 5 elements of an assurance engagement
+      link: /five-elements
+    - label: Examples from other assurance ecosystems
+      link: /examples
+    - label: The role of technical standards in AI assurance
+      link: /technical-standards
+    - label: Challenges for AI assurance
+      link: /challenges
+- label: Delivering AI assurance
+  items:
+    - label: Techniques for assuring AI systems
+      link: /techniques
+    - label: Assuring different subject matter
+      link: /subject-matter
+    - label: Assurance across the AI system lifecycle
+      link: /lifecycle
+- label: The AI assurance toolkit
+  items:
+    - label: Applying assurance techniques to AI
+      link: /applying-assurance-techniques
+    - label: The role of independence in assuring AI
+      link: /independence
+    - label: The promise and limits of assurance
+      link: /promise-and-limits
+    - label: Assurance case studies and examples
+      link: /case-studies
