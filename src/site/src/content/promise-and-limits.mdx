@@ -9,7 +9,7 @@ import License from "../components/license"
 
 <CookieBanner />
 
-As shown above, there are a range of subject matter that need to be assured in AI, some of which are relatively standardised, or could be made so with enough effort and consensus. For these standardised areas, we should be aiming to adopt more efficient, scalable methods for AI Assurance such as formal verification and automated testing.
+As shown above, there are a range of subject matter that need to be assured in AI, some of which are relatively standardised, or could be made so with enough effort and consensus. **For these standardised areas, we should be aiming to adopt more efficient, scalable methods for AI Assurance such as formal verification and automated testing.**
 
 However, we should be realistic about what level of standardisation is achievable. Some subject matters will be too unobservable, ambiguous, subjective for this to be possible at any reasonable level of certainty. For these areas we need to be able to draw on more subjective and judgement based assurance techniques, acknowledging that these are harder to deliver at scale and speed.
 
@@ -17,13 +17,13 @@ On issues like fairness and bias, it’s very unlikely that we’re going to get
 
 <Collapse label="Commonly used definitions of fairness">
 
-Demographic parity - outcomes for different protected groups are equally distributed, and statistically independent. Members of one group are as likely to achieve a given outcome as those in a different group, and successes in one group do not imply successes (or failures) in another. At a decision level, Demographic Parity might mean that the same proportion of men and women applying for loans are successful, but this kind of fairness can also be applied when assigning risk scores, regardless of where a success threshold is applied.
+**Demographic parity** - outcomes for different protected groups are equally distributed, and statistically independent. Members of one group are as likely to achieve a given outcome as those in a different group, and successes in one group do not imply successes (or failures) in another. At a decision level, Demographic Parity might mean that the same proportion of men and women applying for loans are successful, but this kind of fairness can also be applied when assigning risk scores, regardless of where a success threshold is applied.
 
-Conditional demographic parity - as above, but “legitimate risk factors” might mean that we consider it fair to discriminate for certain groups, such as by age in car insurance. The difficulty then sits in deciding which factors qualify as legitimate, and which may be perpetuating historical biases.
+**Conditional demographic parity** - as above, but “legitimate risk factors” might mean that we consider it fair to discriminate for certain groups, such as by age in car insurance. The difficulty then sits in deciding which factors qualify as legitimate, and which may be perpetuating historical biases.
 
-Equalised odds (separation) - qualified and unqualified candidates are treated the same, regardless of their protected attributes. True positive rates are the same for all protected groups, as are false positive rates: the chance that a qualified individual is overlooked, or that an unqualified individual is approved, is the same across all protected groups. However, if different groups have different rates of education, or repayment risk, or some other qualifier, Equalised Odds can result in different groups being held to different standards. This means that Equalised Odds is capable of entrenching systematic bias, rather than addressing it.
+**Equalised odds (separation)** - qualified and unqualified candidates are treated the same, regardless of their protected attributes. True positive rates are the same for all protected groups, as are false positive rates: the chance that a qualified individual is overlooked, or that an unqualified individual is approved, is the same across all protected groups. However, if different groups have different rates of education, or repayment risk, or some other qualifier, Equalised Odds can result in different groups being held to different standards. This means that Equalised Odds is capable of entrenching systematic bias, rather than addressing it.
 
-Calibration - outcomes for each protected group are predicted with equal reliability. If outcomes are found to be consistently under or overpredicted for a group (possibly due to a lack of representative data), then an adjustment/calibration needs to be made. Calibration is also capable of perpetuating pre-existing biases.
+**Calibration** - outcomes for each protected group are predicted with equal reliability. If outcomes are found to be consistently under or overpredicted for a group (possibly due to a lack of representative data), then an adjustment/calibration needs to be made. Calibration is also capable of perpetuating pre-existing biases.
 
 </Collapse>
 
@@ -31,19 +31,19 @@ The specific risks and affected parties will vary by sector, for example quite d
 
 Significant judgement is required to identify and assess risks in different contexts and sectors. In these cases universal standards would be unhelpful and potentially harmful. However, technical standards have a different but equally important role to play when assessing risks. Process standards help to achieve good outcomes for risk management by standardising good organisational processes for assessing, managing and mitigating risks.
 
-There is no ‘silver bullet’ to assuring AI, and these assurance methods are complementary:
+**There is no ‘silver bullet’ to assuring AI, and these assurance methods are complementary:**
 
 - Developing measurement techniques that can be adopted as efficient scalable tests
 - Conducting informed subjective assessment where objective measurement is not possible
 - Combining assurance at the outcome level with assurance at the process level to ensure that interactions within the complex system as well as discrete aspects of the system are trustworthy.
 
-However, assurance methods can also be used in ways which are problematic or contradictory:
+**However, assurance methods can also be used in ways which are problematic or contradictory:**
 
 - Trying to certify something in the absence of a standard - if certification is based only on subjective judgement, this could either provide false confidence to an assurance user that an AI system is trustworthy, or in the absence of an agreed standard fail to satisfy an assurance user that a system is trustworthy.
 - Where assessments are subjective or subject to disagreement, relying on the criteria set by either the responsible party (1st party) or the assurance provider (3rd party), when ultimately what matters is the criteria of the assurance user (second party) or at least the agreement of the 2nd party with the criteria that has been set out.
 - Requiring expert judgement from those (e.g. the assurance user) who may not have the ability to make those judgements
 
-Other problems occur where assurance effort is potentially misplaced or inefficient:
+**Other problems occur where assurance effort is potentially misplaced or inefficient:**
 
 - Spending lots of effort on open ended assessment where there is a commonly accepted standard that can be straightforwardly tested against.
 - Attempting to offer certainty about an assessment that is inherently probabilistic e.g. assessing societal impacts.
@@ -51,6 +51,6 @@ Other problems occur where assurance effort is potentially misplaced or ineffici
 
 The challenge is to adopt a toolkit of assurance methods, where the right tool is adopted for the right kinds of subject matter. Getting this right means thinking carefully about the subject matter we are trying to assure, and what kind of assurance is appropriate and possible, given the circumstances.
 
-On an ongoing basis, getting this balance right will require balancing the cost of mistrust, the cost of misplaced trust, and the cost of verification. This will in turn rely on assessing a number of contextual factors such as the risk level of an AI system in a specific use case, the type of subject matter that needs to be assessed, and where expertise and the responsibility for judgement should lie for assuring that subject matter.
+**On an ongoing basis, getting this balance right will require balancing the cost of mistrust, the cost of misplaced trust, and the cost of verification.** This will in turn rely on assessing a number of contextual factors such as the risk level of an AI system in a specific use case, the type of subject matter that needs to be assessed, and where expertise and the responsibility for judgement should lie for assuring that subject matter.
 
 <License />
